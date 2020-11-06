@@ -6,6 +6,7 @@
     font-family: 'Itim', cursive;
 
 }
+
 .banner{
     position: relative;
     min-height: 100vh;
@@ -15,10 +16,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:100px;
 }
-.text-banner{
-    margin-left: 300px;
-}
+
 .banner h2 {
     font-size: 3em;
     color: white;
@@ -49,23 +49,29 @@
     letter-spacing: 2px;
     font-weight: 500;
 }
+.btn:hover{
+    background: #3369d6;
+}
 header{
+    background-color: #2196f3;
     position:fixed;
     top:0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 20px 100px;
     z-index: 1000;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    transform: 0.5s;
 }
+
 header .logo{
     color: #fff;
     font-size:24px;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
@@ -83,6 +89,28 @@ header ul li a{
     color:white;
     text-decoration: none;
 }
+header ul li a:hover{
+    color:gray;
+    text-decoration:underline;
+}
+.social ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+.social ul li a{
+    font-size:30px;
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color:white;
+    text-decoration: none;
+}
+.social ul li a:hover { 
+    color: black;
+}
+
+
 
 .heading{
     width: 100%;
@@ -93,7 +121,7 @@ header ul li a{
 }
 .heading h2{
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
 }
 .content{
@@ -102,13 +130,27 @@ header ul li a{
 }
 .content-about {
     padding-right: 30px;
+    padding-left: 30px;
+
 }
 .content-about h3{
-    font-size:24px;
+    font-size:35px;
     margin-bottom: 10px;
+}
+.content-about p{
+    font-size:24px;
+}
+.quotes{
+    margin-top: 150px;
+}
+q{
+    font-size:30px;
+    font-style: italic;
 }
 
 .pic{
+    
+    margin-right: 30px;
     min-width: 50%;
 }
 img{
