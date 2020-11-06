@@ -10,7 +10,7 @@
 .banner{
     position: relative;
     min-height: 100vh;
-    background: url(banner2.jpg);
+    background: url("./Picture/banner2.jpg");
     background-size: cover;
     background-position: right;
     display: flex;
@@ -113,7 +113,12 @@ header ul li a:hover{
 }
 
 
-
+.about{
+    background: url("./Picture/bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .heading-about{
     width: 100%;
     text-align: center;
@@ -122,7 +127,7 @@ header ul li a:hover{
 
 }
 .heading-about h2{
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 50px;
     font-weight: 600;
 }
@@ -137,7 +142,7 @@ header ul li a:hover{
 }
 .content-about h3{
     font-size:35px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .content-about p{
     font-size:24px;
@@ -159,10 +164,11 @@ img{
     max-width: 100%;
 }
 .skills{
-    margin-top:30px;
     padding-top: 30px;
-    background-color:black;
+    background-image: url('./Picture/skillbg.jpg');
     color:white;
+    background-size: cover;
+    background-position: right;
 }
 .skill-item{
     justify-content: center;
@@ -173,9 +179,9 @@ img{
 
 }
 .heading-skills h2 {
-    margin-top: 20px;
     font-size: 50px;
     font-weight: 600;
+ 
 }
 .heading-skills{
     width: 100%;
