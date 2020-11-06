@@ -38,6 +38,7 @@
 }
 .btn{
     position: relative;
+    border-radius: 5px;
     background:#2196f3;
     display: inline-block;
     color:#fff;
@@ -51,6 +52,7 @@
 }
 .btn:hover{
     background: #3369d6;
+    color:black;
 }
 header{
     background-color: #2196f3;
@@ -90,7 +92,7 @@ header ul li a{
     text-decoration: none;
 }
 header ul li a:hover{
-    color:gray;
+    color:black;
     text-decoration:underline;
 }
 .social ul{
@@ -112,14 +114,14 @@ header ul li a:hover{
 
 
 
-.heading{
+.heading-about{
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
-    color:#111;
+    color:black;
 
 }
-.heading h2{
+.heading-about h2{
     margin-top: 20px;
     font-size: 50px;
     font-weight: 600;
@@ -155,4 +157,28 @@ q{
 }
 img{
     max-width: 100%;
+}
+.skills{
+    margin-top:30px;
+    padding-top: 30px;
+    background-color:black;
+    color:white;
+}
+.skill-item{
+    justify-content: center;
+    display:  inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.heading-skills {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.heading-skills{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
 }
